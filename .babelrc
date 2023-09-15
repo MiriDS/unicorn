@@ -1,0 +1,18 @@
+{
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./src"],
+            "alias": {
+                "/api": "./src/api",
+                "/components": "./src/components",
+                "/context": "./src/context",
+                "/screens": "./src/screens",
+                "/utils": "./src/utils",
+                "/hooks": "./src/hooks",
+                "/assets": "./src/assets/",
+                "/theme": "./src/theme/"
+            }
+        }],
+        ["module:react-native-dotenv"]
+    ]
+}

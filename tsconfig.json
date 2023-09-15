@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "/*": ["./src/*"],
+      "components/": ["./src/components/"],
+      "context/": ["./src/context/"],
+      "screens/": ["./src/screens/"],
+      "assets/": ["./src/assets/"],
+      "hooks/": ["./src/hooks/"],
+      "theme/": ["./src/theme/"],
+      "utils/": ["./src/utils/"],
+      "api/": ["./src/api/"],
+    }
+  }
+}
